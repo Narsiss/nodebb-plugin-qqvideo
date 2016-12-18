@@ -1,0 +1,15 @@
+{
+	"id": "nodebb-plugin-qqvideo",
+	"name": "NodeBB Tencent(QQ) Plugin",
+	"description": "Plugin for Nodebb to embed Tencent(QQ) videos in posts",
+	"url": "https://github.com/Narsiss/nodebb-plugin-qqvideo",
+	"library": "./index.js",
+	"hooks": [
+		{
+			"hook": "filter:parse.post", "method": "parse", "priority": 6
+		}
+	],
+	"css": [
+		"static/style.css"
+	]
+}
