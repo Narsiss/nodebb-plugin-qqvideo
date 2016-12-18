@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-qqvideo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plugin for Nodebb to embed Tencent(QQ) videos in posts",
   "main": "index.js",
   "scripts": {
@@ -14,8 +14,8 @@
     "embed"
   ],
   "nbbpm": {
-    "compatibility": "^0.6.0"
-  },
+        "compatibility": "^0.8.0"
+    },
   "author": "Narsiss <vvwyot@gmail.com>",
   "license": "ISC"
 }
